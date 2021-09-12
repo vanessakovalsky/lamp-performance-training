@@ -3,8 +3,8 @@
 namespace App\Repository;
 
 use App\Entity\Pronostic;
+use Doctrine\Persistence\ManagerRegistry;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\Common\Persistence\ManagerRegistry;
 
 /**
  * @method Pronostic|null find($id, $lockMode = null, $lockVersion = null)
