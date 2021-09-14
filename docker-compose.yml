@@ -24,6 +24,7 @@ services:
       - ./code-base-symfony:/var/www/symfony_docker
     depends_on:
       - database
+    
   nginx:
     container_name: nginx
     image: nginx:stable-alpine
