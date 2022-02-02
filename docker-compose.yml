@@ -14,6 +14,7 @@ services:
       - '4306:3306'
     volumes:
       - ./mysql-files:/var/lib/mysql-files
+      - $PWD/data":/var/lib/mysql
   php:
     container_name: php
     build:
